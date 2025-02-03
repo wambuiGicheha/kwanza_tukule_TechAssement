@@ -46,18 +46,18 @@ The dataset includes the following columns:
 | Product-4156       | 28487    | 56,956,007  |
 
 ### Visualizations:
-1.**Total Sales Over Time**: A time series plot showing total sales and trends across different months.
+1. **Total Sales Over Time**: A time series plot showing total sales and trends across different months.
 
-![Total Sales over Time](images/Total Sales Over Time.png)
+<img src="images/Total Sales Over Time.png" alt="Total Sales Over Time" width="600" />
 
 2. **Top 5 Products by Quantity**: A bar chart showcasing the top-selling products based on quantity sold.
 
-![Top 5 by Quantity](images/Top 5 Most Frequently Purchased Products.png)
+<img src="images/Top 5 Most Frequently Purchased Products.png" alt="Top 5 by Quantity" width="600" />
 
 3. **Top 5 Products by Value**: A bar chart illustrating the highest-value products based on total sales value.
-![Top 5 by value](images/Top 5 Products by value.png)
 
-4. 
+<img src="images/Top 5 Products by value.png" alt="Top 5 by Value" width="600" />
+
 ## Steps Taken
 
 ### 1. Data Cleaning:
