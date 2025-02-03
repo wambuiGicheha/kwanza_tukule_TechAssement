@@ -16,14 +16,14 @@ This project involves building a **Sales Dashboard** using **Dash** (a Python fr
 - **Stakeholders**: Business owners, sales managers, marketing teams, and inventory managers.
 - **Key Business Questions**:
   1. Which products generate the highest sales, and which products should be prioritized for marketing campaigns?
-  2. What are the seasonal sales trends, and how can we forecast sales for the next few months?
+  2. What are the seasonal sales trends, and how can I forecast sales for the next few months?
   3. Are there any products or businesses that show a decrease in sales over time, indicating the need for customer retention strategies?
   4. What operational improvements can be made in inventory management to optimize product performance based on historical data?
 
 ## Data Understanding and Analysis
 
 ### Source of Data:
-The dataset used in this analysis is sourced from a business's transaction history, including product sales across various categories, businesses, and locations. The dataset contains information such as product quantities, unit prices, and total sales values over time.
+The dataset used in this analysis is sourced from an anonymized business's transaction history, including product sales across various categories, businesses, and locations. The dataset contains information such as product quantities, unit prices, and total sales values over time.
 
 ### Description of Data:
 The dataset includes the following columns:
@@ -70,6 +70,7 @@ The dataset includes the following columns:
 - **Unique Values**: Explored the unique values in each column.
 - **Descriptive Statistics**: Calculated basic statistics for numerical columns.
 - **Data Visualization**: Plotted the top-selling products, business performance, and sales trends.
+- **Feature Engineering**: Created new month-year column/feature from the date feature
 
 ### 3. Forecasting:
 - **ARIMA Forecasting**: Used the ARIMA model to forecast future sales for the next three months.
