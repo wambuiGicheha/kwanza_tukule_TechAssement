@@ -97,10 +97,10 @@ The dataset includes the following columns:
 
 ## Deployment
 
-The dashboard can be accessed via a deployed web application using platforms such as **Heroku** or **Render**.
+The dashboard can be accessed via a deployed web application using the **Render** platforms.
 
 ### Deployment Steps:
-1. **Create a Heroku Account**: Sign up at [Heroku](https://www.heroku.com/).
+1. **Create a Heroku Account**: Sign up at [Render](https://www.heroku.com/).
 2. **Set Up Your App**: 
    - Push your code to a GitHub repository.
    - Link your GitHub repository to your Heroku app.
