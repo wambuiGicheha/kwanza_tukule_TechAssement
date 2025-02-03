@@ -74,8 +74,7 @@ The dataset includes the following columns:
 ### 3. Forecasting:
 - **ARIMA Forecasting**: Used the ARIMA model to forecast future sales for the next three months.
 
-![Forecast](images\Total Sales Forecast for Next 3 Months.png)
-
+<img src="images\Total Sales Forecast for Next 3 Months.png" alt="forecast next 3 months" width="600" />
 ### 4. Insights:
 - **Sales Trends**: Visualized trends in sales values and quantities over time.
 - **Top 5 Products**: Identified top products by quantity and total value.
