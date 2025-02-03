@@ -13,6 +13,7 @@ top_businesses = kt_clean_df.groupby('anonymized_business').agg({'total_value': 
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Layout
 app.layout = html.Div([
