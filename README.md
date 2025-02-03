@@ -46,7 +46,7 @@ The dataset includes the following columns:
 | Product-4156       | 28487    | 56,956,007  |
 
 ### Visualizations:
-1. **Total Sales Over Time**: A time series plot showing total sales and trends across different months.
+1.**Total Sales Over Time**: A time series plot showing total sales and trends across different months.
 
 ![Total Sales over Time](images/Total Sales Over Time.png)
 
