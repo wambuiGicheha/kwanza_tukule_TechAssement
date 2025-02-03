@@ -45,7 +45,7 @@ The dataset includes the following columns:
 | Product-29ee       | 35940    | 68,248,274  |
 | Product-4156       | 28487    | 56,956,007  |
 
-### Visualizations:
+## Visualizations:
 1.**Total Sales Over Time**: A time series plot showing total sales and trends across different months.
 
 ![Total Sales over Time](images/Total Sales Over Time.png)
@@ -57,7 +57,7 @@ The dataset includes the following columns:
 3. **Top 5 Products by Value**: A bar chart illustrating the highest-value products based on total sales value.
 ![Top 5 by value](images/Top 5 Products by value.png)
 
-4. 
+
 ## Steps Taken
 
 ### 1. Data Cleaning:
