@@ -48,14 +48,14 @@ The dataset includes the following columns:
 ### Visualizations:
 1. **Total Sales Over Time**: A time series plot showing total sales and trends across different months.
 
-![Total Sales over Time](images\Total Sales Over Time.png)
+![Total Sales over Time](images/Total Sales Over Time.png)
 
 2. **Top 5 Products by Quantity**: A bar chart showcasing the top-selling products based on quantity sold.
 
-![Top 5 by Quantity](images\Top 5 Most Frequently Purchased Products.png)
+![Top 5 by Quantity](images/Top 5 Most Frequently Purchased Products.png)
 
 3. **Top 5 Products by Value**: A bar chart illustrating the highest-value products based on total sales value.
-![Top 5 by value](images\Top 5 Products by value.png)
+![Top 5 by value](images/Top 5 Products by value.png)
 
 4. 
 ## Steps Taken
