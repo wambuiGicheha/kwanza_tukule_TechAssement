@@ -64,7 +64,7 @@ app.layout = html.Div([
     dcc.Graph(
         id='segmentation-plot',
         figure=px.scatter(
-            business_grouped,  # Make sure this DataFrame exists
+            business_grouped,  
             x='total_value',
             y='quantity',
             color='group',
