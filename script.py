@@ -56,8 +56,26 @@ app.layout = html.Div([
         columns=[{"name": i, "id": i} for i in ['segment', 'total_value', 'total_quantity']],
         data=kt_business_df.groupby('segment').agg({'total_value': 'sum', 'total_quantity': 'sum'}).reset_index().to_dict('records'),
         style_table={'overflowX': 'auto'},
+    ),
+    
+   
+    # Segmentation Scatter Plot
+    html.H3("Customer Segmentation Based on Purchasing Behavior"),
+    dcc.Graph(
+        id='segmentation-plot',
+        figure=px.scatter(
+            business_grouped,  # Make sure this DataFrame exists
+            x='total_value',
+            y='quantity',
+            color='group',
+            size='frequency',
+            hover_data=['anonymized_business'],  
+            title='Customer Segmentation Based on Purchasing Behavior'
+        )
     )
 ])
+
+
 
 # Run the app
 if __name__ == '__main__':
