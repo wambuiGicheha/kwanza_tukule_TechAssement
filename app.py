@@ -4,12 +4,25 @@ import plotly.express as px
 import pandas as pd
 from dash.dependencies import Input, Output
 
+# Load or define the kt_clean_df DataFrame
+kt_clean_df = pd.read_csv('cleaned_data.csv')  
+
 
 # Aggregate data for different visualizations
-monthly_sales = kt_clean_df.groupby('month-year').agg({'total_value': 'sum', 'quantity': 'sum'}).reset_index()
-category_sales = kt_clean_df.groupby('anonymized_category').agg({'total_value': 'sum', 'quantity': 'sum'}).reset_index()
+monthly_sales = kt_clean_df.groupby('month-year').agg({'total_value': 'sum', 'quantity': 'sum'}).reset_index() # type: ignore
+category_sales = kt_clean_df.groupby('anonymized_category').agg({'total_value': 'sum', 'quantity': 'sum'}).reset_index() # type: ignore
 top_products = kt_clean_df.groupby('anonymized_product').agg({'total_value': 'sum', 'quantity': 'sum'}).reset_index().nlargest(10, 'total_value')
 top_businesses = kt_clean_df.groupby('anonymized_business').agg({'total_value': 'sum'}).reset_index().nlargest(10, 'total_value')
+
+# Aggregate metrics per business
+kt_business_df = kt_clean_df.groupby("anonymized_business").agg(
+    total_quantity=("quantity", "sum"),
+    total_value=("unit_price", "sum"),
+    transaction_count=("date", "count")  # Frequency of purchases
+).reset_index()
+
+
+print(kt_clean_df.columns)
 
 # Initialize Dash app
 app = dash.Dash(__name__)
