@@ -100,11 +100,11 @@ The dataset includes the following columns:
 The dashboard can be accessed via a deployed web application using the **Render** platforms.
 
 ### Deployment Steps:
-1. **Create a Heroku Account**: Sign up at [Render](https://www.heroku.com/).
+1. **Create a Heroku Account**: Sign up at [Render](https://www.render.com/).
 2. **Set Up Your App**: 
    - Push your code to a GitHub repository.
-   - Link your GitHub repository to your Heroku app.
-   - Deploy the app using Heroku's buildpacks.
+   - Link your GitHub repository to render.
+   - Deploy the app using Render.
 3. **Access the Dashboard**: Once deployed, your dashboard will be accessible via a public URL provided by Heroku (e.g., `https://your-app-name.herokuapp.com/`).
 
 ## Usage
