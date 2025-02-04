@@ -95,21 +95,10 @@ The dataset includes the following columns:
 2. **Seasonality Impact**: Seasonal fluctuations in sales provide opportunities for targeted marketing and inventory adjustments.
 3. **Forecasting**: ARIMA forecasting helps predict future sales trends, allowing businesses to plan for demand fluctuations and operational changes.
 
-## Deployment
-
-The dashboard can be accessed via a deployed web application using the **Render** platforms.
-
-### Deployment Steps:
-1. **Create a Heroku Account**: Sign up at [Render](https://www.render.com/).
-2. **Set Up Your App**: 
-   - Push your code to a GitHub repository.
-   - Link your GitHub repository to render.
-   - Deploy the app using Render.
-3. **Access the Dashboard**: Once deployed, your dashboard will be accessible via a public URL provided by Heroku (e.g., `https://your-app-name.herokuapp.com/`).
 
 ## Usage
 
-Once the dashboard is deployed, users can:
+Once the dashboard, users can:
 - View monthly sales performance, including trends and forecasts.
 - Filter products based on sales performance.
 - Explore insights on top-performing businesses and products.
